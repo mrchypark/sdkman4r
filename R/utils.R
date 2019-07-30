@@ -1,3 +1,10 @@
+sdk <- function(args = ""){
+  root <- "source $HOME/.sdkman/bin/sdkman-init.sh && sdk"
+  args <- paste(root, args)
+  tem <- sys::exec_wait("bash", args = c("-c", args))
+  invisible(tem)
+}
+
 #' Get os info
 #' 
 #' @export
