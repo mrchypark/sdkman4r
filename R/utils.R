@@ -1,3 +1,6 @@
+#' sdk run
+#' 
+#' @export
 sdk <- function(args = ""){
   root <- "source $HOME/.sdkman/bin/sdkman-init.sh && sdk"
   args <- paste(root, args)
