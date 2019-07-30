@@ -12,7 +12,6 @@ License: Apache License (>= 2.0)
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    sys,
-    fs
+    sys
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

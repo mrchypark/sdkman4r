@@ -2,3 +2,5 @@
 
 export(get_os)
 export(install)
+export(sdk_version)
+importFrom(sys,exec_wait)
